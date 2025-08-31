@@ -76,17 +76,9 @@ The dataset contains retail sales transactions with the following information:
 - **Tools Used**: Power BI Desktop, Power Query (M Language), DAX.
 - **Data Modeling**: Created a star-schema data model with established relationships between fact and dimension tables.
 - **DAX Measures**: Developed complex measures for:
-  - KPI Calculation (Revenue, AOV, ARPU)
-  - Time Intelligence (MoM Growth)
+  - KPI Calculation (Revenue, AOV, ARPU, etc)
   - Ratio Analysis (Unsold Products %)
 - **Data Transformation**: Used Power Query for data cleaning, shaping, and building a robust ETL pipeline.
-
----
-
-## How to Use
-1. Open the `.pbix` file in Power BI Desktop  
-2. Use the slicers (Date, Location, Channel, Manufacturer, etc.) to filter the data dynamically  
-3. Navigate across the three pages to explore insights at overview, group analysis, and product detail levels  
 
 ---
 
@@ -135,3 +127,9 @@ The dataset contains retail sales transactions with the following information:
 - Productivity and Extreme segments are most profitable  
 - Portfolio optimization needed: discontinue or revamp underperforming SKUs  
 
+---
+
+## How to Use
+1. Open the `.pbix` file in Power BI Desktop  
+2. Use the slicers (Date, Location, Channel, Manufacturer, etc.) to filter the data dynamically  
+3. Navigate across the three pages to explore insights at overview, group analysis, and product detail levels  
