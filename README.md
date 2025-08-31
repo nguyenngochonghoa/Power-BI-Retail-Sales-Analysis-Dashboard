@@ -73,9 +73,13 @@ The dataset contains retail sales transactions with the following information:
 ---
 
 ## 🔧 Tech Stack
-- Power BI Desktop for data modeling & visualization  
-- DAX for calculated measures (e.g., AOV, ARPU, unsold % tracking)  
-- Power Query for data cleaning and transformation  
+- **Tools Used**: Power BI Desktop, Power Query (M Language), DAX.
+- **Data Modeling**: Created a star-schema data model with established relationships between fact and dimension tables.
+- **DAX Measures**: Developed complex measures for:
+  - KPI Calculation (Revenue, AOV, ARPU)
+  - Time Intelligence (MoM Growth)
+  - Ratio Analysis (Unsold Products %)
+- **Data Transformation**: Used Power Query for data cleaning, shaping, and building a robust ETL pipeline.
 
 ---
 
