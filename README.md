@@ -72,7 +72,7 @@ The dataset contains retail sales transactions with the following information:
 
 ---
 
-## 🔧 Tech Stack
+## Tech Stack
 - **Tools Used**: Power BI Desktop, Power Query (M Language), DAX.
 - **Data Modeling**: Created a star-schema data model with established relationships between fact and dimension tables.
 - **DAX Measures**: Developed complex measures for:
