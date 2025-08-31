@@ -1,4 +1,4 @@
-# Retail Sales Analysis Dashboard (Power BI)
+<img width="816" height="27" alt="image" src="https://github.com/user-attachments/assets/b0191138-68f7-414e-bec0-e0b3c22effbe" /># Retail Sales Analysis Dashboard (Power BI)
 
 ## 📌 Project Overview
 This project presents an interactive Power BI dashboard for analyzing retail sales performance.  
@@ -25,18 +25,18 @@ This dashboard bridges the gap between raw data and actionable insights, enablin
 
 ---
 
-## 📂 Dataset
-The dataset was provided by the training center and contains retail sales transactions with the following information:
+## Dataset
+The dataset contains retail sales transactions with the following information:
 
-- **Date:** Year, Quarter, Month  
-- **Location:** Region, City  
-- **Channel:** Online, Retail, Distributor, etc.  
-- **Product Information:** Product ID, Name, Category, Segment, Manufacturer  
-- **Sales Metrics:** Revenue, Units Sold, Orders, Avg Order Value, Avg Revenue per Unit  
+- **Sale:** product_id, date, zip, units, revenue, sales_channel
+- **Geo:** zip, city, state, region, district
+- **Channel:** channel_id,	channel
+- **Product:** product_id, name, category, segment, manufacturer_id  
+- **Manufacturer:** manufacturer_id, name
 
 ---
 
-## 📊 Dashboard Design
+## Dashboard Design
 
 ### 🔹 Page 1: Overview
 **KPIs:** Revenue, Units Sold, Avg Revenue per Unit, Orders, Avg Order Value  
@@ -57,12 +57,13 @@ The dataset was provided by the training center and contains retail sales transa
 - Revenue by Quarter & Category/Segment/Channel  
 - Product Sales Status (Sold vs Unsold)  
 - Top/Bottom N by Unit Sold  
-- Unsold % by Segment/Category  
-- Sales Performance by Segment (scatter/bubble)  
+- Unsold Products by Segment/Category  
+- Sales Performance by Segment (scatter/bubble)
+- List of Unsold Products 
 
 **Table:** List of Unsold Products (with search filter)  
 
-**Slicers:** Date, Location, Channel, Category, Product Name (+ optional Segment, Manufacturer)  
+**Slicers:** Date, Location, Channel, Category, Segment, Product Name
 
 ### 🔹 Page 3: Product Details
 **Table:** Product Information (ID, Name, Manufacturer, Segment, Category, Orders, Revenue, Units, ARPU, AOV)  
@@ -78,7 +79,7 @@ The dataset was provided by the training center and contains retail sales transa
 
 ---
 
-## 🚀 How to Use
+## How to Use
 1. Open the `.pbix` file in Power BI Desktop  
 2. Use the slicers (Date, Location, Channel, Manufacturer, etc.) to filter the data dynamically  
 3. Navigate across the three pages to explore insights at overview, group analysis, and product detail levels  
@@ -113,7 +114,7 @@ The dataset was provided by the training center and contains retail sales transa
 - **Top Product:** Ring Video Doorbell 4 – $11.8M revenue (+11.3% MoM), 6.7K units sold  
 - **Product Portfolio:** 2.4K SKUs, only 28.15% sold, 71.85% remain unsold  
 
-**Unsold Products:**  
+**Unsold Products SKUs:**  
 - **By Category:** Urban (938) & Rural (504) dominate inventory backlog  
 - **By Segment:** Productivity (392) & Convenience (257) highest unsold counts  
 
