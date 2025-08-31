@@ -1,4 +1,4 @@
-<img width="816" height="27" alt="image" src="https://github.com/user-attachments/assets/b0191138-68f7-414e-bec0-e0b3c22effbe" /># Retail Sales Analysis Dashboard (Power BI)
+# Retail Sales Analysis Dashboard (Power BI)
 
 ## 📌 Project Overview
 This project presents an interactive Power BI dashboard for analyzing retail sales performance.  
