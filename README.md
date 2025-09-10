@@ -50,6 +50,8 @@ The dataset contains retail sales transactions with the following information:
 
 **Slicers:** Date, Location, Channel, Manufacturer  
 
+<img width="1409" height="799" alt="image" src="https://github.com/user-attachments/assets/3ae5a187-85c3-495f-b7d4-26caf1aeb0d3" />
+
 ### 🔹 Page 2: Product Analysis
 **KPIs:** Total Products, Top Selling Product  
 
@@ -65,10 +67,14 @@ The dataset contains retail sales transactions with the following information:
 
 **Slicers:** Date, Location, Channel, Category, Segment, Product Name
 
+<img width="1411" height="798" alt="image" src="https://github.com/user-attachments/assets/dd8fc437-39ba-4a63-8d82-64cad54c4ee0" />
+
 ### 🔹 Page 3: Product Details
 **Table:** Product Information (ID, Name, Manufacturer, Segment, Category, Orders, Revenue, Units, ARPU, AOV)  
 
 **Slicers:** Date, Location, Channel, Category, Segment, Manufacturer, Product Name  
+
+<img width="1408" height="798" alt="image" src="https://github.com/user-attachments/assets/5e7c7bca-6325-4e91-b19d-afc7a33cbe48" />
 
 ---
 
